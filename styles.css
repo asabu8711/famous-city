@@ -15,3 +15,22 @@ body {
     border: 1rem solid #ccc;
     background-color: #ffffff;
 }
+
+/* Float layout - main 70%, aside 30% */
+main {
+    float: left;
+    width: 70%;
+    padding: 1.5rem;
+}
+
+/* Aside floats beside main */
+aside {
+    float: right;
+    width: 30%;
+    padding: 1.5rem;
+}
+
+/* Clear float for footer */
+footer {
+    clear: both;
+}
