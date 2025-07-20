@@ -89,3 +89,37 @@ iframe {
     width: 100%;
     margin: 1rem auto;
 }
+
+#quote {
+    border: 0.2rem dashed #888;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 80%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #444;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff6600;
+}
+
+a:active {
+    color: red;
+}
