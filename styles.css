@@ -61,3 +61,31 @@ blockquote {
     margin: 1rem auto;
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
 }
+
+figure {
+    border: 0.2rem solid #ccc;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #fafafa;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border: 0.2rem solid #888;
+    border-radius: 1rem;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+iframe {
+    border: 0.3rem solid #000;
+    display: block;
+    width: 100%;
+    margin: 1rem auto;
+}
