@@ -1,0 +1,17 @@
+/* Name: Your Name
+   Student Number: 123456789 */
+
+/* Type selector for html element - sets base font for the entire page */
+html {
+    font: italic small-caps bold 20px/1.5 "Arial", sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Type selector for body - layout and padding */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1rem solid #ccc;
+    background-color: #ffffff;
+}
